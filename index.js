@@ -1,7 +1,29 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  const x =word.split('');
+  const y = x.reverse().join('');
+  if (word === y){
+    return true
+  }else{
+    return false
+  }
+  //console.log(word===y);
+  //loop from front
+  // for (let i=0; i >word.length; i++){
+  //   x = word[i];
+  //   console.log (x);
+  // }
+
+  // for (let i= word.length-1; i<word.length; i--){
+  //   y = word[1]
+  //   console.log(y)
+  // }
+  // if (y===x){
+  //   return `${word} is a palindrome`
+  // }
 }
 
+isPalindrome('mom')
 /* 
   Add your pseudocode here
 */
